@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Talk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="initial-screen" id="initialScreen">
+            <h1>Random Talk</h1>
+            <button id="connectBtn">Connect</button>
+        </div>
+
+        <div class="loading" id="loadingScreen">
+            <h2>Finding a partner...</h2>
+            <p>Please wait while we connect you with someone</p>
+        </div>
+
+        <div class="chat-container" id="chatContainer">
+            <div id="status"></div>
+            <div class="messages" id="messages"></div>
+            <div class="input-container">
+                <input type="text" id="messageInput" placeholder="Type a message...">
+                <button id="sendBtn">Send</button>
+                <button id="endChatBtn">End Chat</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
